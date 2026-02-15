@@ -18,9 +18,9 @@ export default defineConfig({
         globPatterns: ['**/*.{js,css,html,ico,webp,png,svg,ttf,mp4}'],
       },
       manifest: {
-        name: '2026新年快乐',
-        short_name: '2026新年快乐',
-        description: '2026新年快乐',
+        name: '新年快乐2026',
+        short_name: '新年快乐2026',
+        description: '新年快乐，马年大吉🐎！祝你好运加马，快乐加马！',
         start_url: '/',
         scope: '/',
         display: 'standalone',
@@ -48,6 +48,7 @@ export default defineConfig({
       },
     }),
   ],
+  baseURL: '/hny2026/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
