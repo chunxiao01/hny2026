@@ -30,17 +30,17 @@ export default defineConfig({
         orientation: 'portrait',
         icons: [
           {
-            src: '/assets/images/horse180.png',
+            src: new URL('./src/assets/images/horse180.png', import.meta.url).href,
             sizes: '180x180',
             type: 'image/png',
           },
           {
-            src: '/assets/images/horse192.png',
+            src: new URL('./src/assets/images/horse192.png', import.meta.url).href,
             sizes: '192x192',
             type: 'image/png',
           },
           {
-            src: '/assets/images/horse512.png',
+            src: new URL('./src/assets/images/horse512.png', import.meta.url).href,
             sizes: '512x512',
             type: 'image/png',
           },
