@@ -48,7 +48,7 @@ export default defineConfig({
       },
     }),
   ],
-  baseURL: '/hny2026/',
+  base: '/hny2026/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
